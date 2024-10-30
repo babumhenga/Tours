@@ -1,0 +1,93 @@
+
+.navbar{
+    padding-top: 0px;
+    height: 100%;
+    background-color: rgb(3, 90, 29);
+}
+.navbar ul{
+    display: flex;
+    list-style-type:none;
+    color: white;
+    margin-left: 30rem;
+    margin-top: 0px;
+}
+ul li{
+    padding-right: 8rem;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+ul li:hover{
+    text-shadow: 2px 2px 2px 2px white;
+}
+.mypic{
+    width:40%;
+    height: 35rem;
+    background-color: rgb(3, 90, 29);
+    border-radius: 60% 20% 70% 50%;
+    transition: 1s;
+}
+.mypic:hover{
+    border-radius:10% 10% 30% 30%;
+
+}
+.face{
+    display: flex;
+}
+.tour img{
+    height: 29rem;
+    width: 20rem;
+    margin-left:20%;
+    margin-top: 10%;
+    filter: grayscale(50%);
+    border-radius: 40% 60% 50% 80%;
+    transition: 1s;
+}
+.tour img:hover{
+    filter: grayscale(0%);
+    border-radius: 10% 10% 30% 30%;
+}
+.face .text{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.text p{
+    color: rgb(3, 90, 29);
+    font-size: 1.3rem;
+}
+div .buttons{
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.buttons button{
+    height: 4rem;
+    width: 15rem;
+    background-color: rgb(3, 90, 29);
+    color: white;
+    border: none;
+    transition: 1s ;
+}
+.buttons button:hover{
+    color:rgb(3, 90, 29);
+    background-color: white;
+    border: 1px solid rgb(3, 90, 29);
+    border-radius: 10px 10px 10px 10px;
+}
+.socials{
+    display:flex;
+    margin-left: 35%;
+}
+.socials .fb, .insta, .linked, .twitter, .youtube, .snap{
+    margin-right: 10px;
+    border: 1px solid rgb(3, 90, 29);
+    border-radius: 5px;
+    height:4rem;
+    width: 4rem;
+    
+}
+.socials i{
+    margin-left: 1.4rem;
+    margin-top: 1.4rem;
+}
+.fb i, .insta i, .linked i, .twitter i, .youtube i, .snap i{
+    height: 5%;
+}
