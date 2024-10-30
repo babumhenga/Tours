@@ -1,15 +1,24 @@
 
 .navbar{
-    padding-top: 0px;
     height: 100%;
     background-color: rgb(3, 90, 29);
 }
 .navbar ul{
     display: flex;
     list-style-type:none;
-    color: white;
-    margin-left: 30rem;
+    color: rgb(253, 247, 247);
+    margin-left: 40%; 
     margin-top: 0px;
+}
+.navbar ul li{
+    transition: 1s;
+    text-align: center;
+    -webkit-text-stroke: 1px solid white;
+}
+.navbar ul li:hover{
+    border: 1px solid rgb(3, 90, 29);
+    color: rgb(3, 90, 29);
+    background-color: white;
 }
 ul li{
     padding-right: 8rem;
@@ -71,6 +80,17 @@ div .buttons{
     background-color: white;
     border: 1px solid rgb(3, 90, 29);
     border-radius: 10px 10px 10px 10px;
+}
+.myservice{
+    transition: 1s;
+}
+.serve{
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    -webkit-text-stroke:1px rgb(3, 90, 29);
+    color: transparent;
 }
 .socials{
     display:flex;
